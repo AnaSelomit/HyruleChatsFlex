@@ -1,0 +1,311 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@800&family=Comfortaa:wght@300;400;500;600&family=Outfit:wght@300;400;500;600&display=swap');
+
+
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-family: Cinzel; 
+    font-weight: 800;
+    font-size: 1.8rem;
+    margin: 0;
+    padding-top: 1.5rem;
+    color: #745803 ;
+}
+
+h3{
+    font-family: Comfortaa;
+    font-weight: 400;
+}
+
+h4 {
+    font-family: Outfit;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0;
+    padding-top: 0.3rem;
+    color: white;
+}
+
+p{
+    font-family: Outfit;
+    font-weight: 300;
+    margin: 0;
+    
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: aliceblue;
+    
+}
+
+/* contactos*/
+
+.contact {
+    background-color: rgb(232, 213, 160);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 25%;
+    
+    
+}
+
+/*Perfil usuario*/
+
+
+
+.container1 {
+    width: 100%;
+    height: 80px;
+    padding: 1.5rem 2rem 1.5rem 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(90, 7, 7);
+    
+    
+
+}
+
+.photo img {
+    max-width: 60px;
+    min-width: 35px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(59, 147, 25);
+}
+
+.photo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    
+}
+
+.photo2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-left: 0.5rem;
+}
+
+.photo3 {
+    width: 15%;
+
+}
+
+.icon {
+    color: white;
+    font-size: 1.5rem;
+    max-width: 40px;
+}
+
+.container1 p {
+    color: white;
+}
+
+/*button*/
+
+.container2  {
+    width: 100%;
+    height: 80px;
+    background-image: url(../img/loading.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.btn {
+    font-size: large;
+    padding: 0.5rem 2rem;
+    background-color: #233e1b;
+    color: #fff;
+    border-radius: 0.5rem;
+    border-style: none;
+    font-family: Cinzel;
+    font-size: medium;
+    margin: 2rem 0rem;
+}
+
+.btn:hover {
+
+    background-color: rgb(90, 7, 7);
+    transition: 0.5s;
+
+}
+
+
+
+/*Otros Contactos*/
+
+
+.container3 {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.contactB {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: solid ;
+    border-width: 0px 1px 1px 1px;
+    border-color: #745803;
+    padding: 0.6rem 0.1rem;
+    background-color: rgb(232, 213, 160);
+
+    
+}
+
+.contactB img {
+    min-width: 10px;
+    max-width: 38px;
+    border-radius: 50%;
+    border: solid 2px;
+    border-color: #205311;
+    
+
+
+}
+
+h5 {
+    margin: 0;
+    font-family: Outfit;
+    
+}
+
+.photoB {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.photoB2 {
+
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-left: 0.5rem;
+    
+
+}
+
+.photoB3 {
+    
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    
+}
+
+.ganon {
+    opacity: 35%;
+}
+
+.backg {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #745803;
+    
+    
+
+}
+
+.contactB h5 {
+    font-size: medium;
+}
+
+.contactB p {
+    font-size: small;
+}
+
+.backg2 p {
+
+    color: #423204;
+    font-family: Comfortaa;
+    font-size: small;
+    
+
+}
+
+
+
+
+
+
+
+
+/* Área Chat*/
+
+.containerChat {
+    background-image: url(../img/fondo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.iconChat {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.logo, .titulo, .enunciado {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.logo img {
+    width: 60%; 
+    
+}
+
+
